@@ -1,0 +1,24 @@
+{
+  "name": "know-your-team",
+  "version": "0.1.0",
+  "description": "Get to really know the team you're working with",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grvcoelho/know-your-team.git"
+  },
+  "keywords": [
+    "management",
+    "leadership",
+    "team"
+  ],
+  "author": "Guilherme Rv Coelho <guilhermervcoelho@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grvcoelho/know-your-team/issues"
+  },
+  "homepage": "https://github.com/grvcoelho/know-your-team#readme"
+}
