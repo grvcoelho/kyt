@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "eslint './**/*.js'",
     "precommit": "npm run lint",
+    "start": "nodemon bin/server.js",
     "test": "jest"
   },
   "repository": {
@@ -29,6 +30,13 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.11.1",
-    "husky": "^0.14.3"
+    "husky": "^0.14.3",
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "next": "^6.1.2",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0"
   }
 }
