@@ -4,6 +4,8 @@
   "description": "Get to really know the team you're working with",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint './**/*.js'",
+    "precommit": "npm run lint",
     "test": "jest"
   },
   "repository": {
@@ -20,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/grvcoelho/know-your-team/issues"
   },
-  "homepage": "https://github.com/grvcoelho/know-your-team#readme"
+  "homepage": "https://github.com/grvcoelho/know-your-team#readme",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-pagarme-react": "^1.5.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "husky": "^0.14.3"
+  }
 }
