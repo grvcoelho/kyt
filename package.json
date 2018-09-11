@@ -4,6 +4,7 @@
   "description": "Get to really know the team you're working with",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon bin/server.js -w './{api,bin}/**/*.js'",
     "lint": "eslint './**/*.js'",
     "precommit": "npm run lint",
     "start": "node bin/server.js",
