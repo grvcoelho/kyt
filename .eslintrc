@@ -13,5 +13,6 @@
     'import/no-unresolved': ['off'],
     'import/extensions': ['off'],
     'sort-keys': ['off'],
+    'function-paren-newline': ['error', 'consistent'],
   },
 }
