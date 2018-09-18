@@ -43,7 +43,8 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^23.6.0",
     "nodemon": "^1.18.4",
-    "react-addons-test-utils": "^15.6.2"
+    "react-addons-test-utils": "^15.6.2",
+    "supertest": "^3.3.0"
   },
   "dependencies": {
     "express": "^4.16.3",
