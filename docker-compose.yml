@@ -24,6 +24,11 @@ services:
     environment:
       - PORT=3000
       - NODE_ENV=test
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_DATABASE=postgres
+      - DB_USERNAME=postgres
+      - DB_PASSWORD=Kyt12!
     volumes:
       - .:/app
       - /app/node_modules
@@ -38,6 +43,11 @@ services:
     environment:
       - PORT=3000
       - NODE_ENV=test
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_DATABASE=postgres
+      - DB_USERNAME=postgres
+      - DB_PASSWORD=Kyt12!
     volumes:
       - .:/app
       - /app/node_modules
