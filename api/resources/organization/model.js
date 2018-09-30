@@ -1,7 +1,7 @@
 const { STRING } = require('sequelize')
 const { generateId } = require('../../database/lib')
 
-const create = database => database.define('Organizations', {
+const create = database => database.define('Organization', {
   id: {
     type: STRING,
     primaryKey: true,
