@@ -1,4 +1,10 @@
 module.exports = {
+  roots: [
+    '<rootDir>/api/',
+    '<rootDir>/bin/',
+    '<rootDir>/components/',
+    '<rootDir>/pages/',
+  ],
   collectCoverageFrom: [
     './components/**/*.{js,jsx}',
   ],
