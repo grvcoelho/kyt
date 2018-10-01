@@ -9,8 +9,8 @@ class AuthenticationError extends Error {
 }
 
 class InternalServerError extends Error {
-  constructor (error = {}) {
-    super(error.message)
+  constructor () {
+    super('An internal error occurred')
 
     this.name = 'InternalServerError'
     this.type = 'internal'
