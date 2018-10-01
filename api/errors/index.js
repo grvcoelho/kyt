@@ -26,8 +26,8 @@ class InvalidParameterError extends Error {
     this.type = 'invalid_parameter'
     this.field = error.field
 
-    if (error.path) {
-      this.field = error.path.reduce((acc, curr) => `${acc}.${curr}`, '')
+    if (error.path && error.path.length) {
+      this.field = error.path.reduce((acc, curr) => `${acc}.${curr}`)
     }
   }
 }

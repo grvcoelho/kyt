@@ -9,8 +9,6 @@ describe('validateEntity', () => {
     const schema = Joi.string().required()
     const entity = 'Sweden'
 
-    expect.assertions(1)
-
     await expect(validateEntity(schema, entity))
       .resolves
       .toEqual('Sweden')
@@ -19,8 +17,6 @@ describe('validateEntity', () => {
   test('with an invalid entity', async () => {
     const schema = Joi.string().required()
     const entity = 123
-
-    expect.assertions(1)
 
     await expect(validateEntity(schema, entity))
       .rejects
