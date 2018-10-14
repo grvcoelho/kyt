@@ -1,4 +1,4 @@
-const { server } = require('../../../index')
+const { server } = require('../../../server')
 const database = require('../../../database')
 const { connect } = require('../../../database/lib')
 

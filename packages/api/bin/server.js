@@ -1,6 +1,6 @@
-const { app, server } = require('../api')
-const database = require('../api/database')
-const { connect } = require('../api/database/lib')
+const { app, server } = require('../server')
+const database = require('../database')
+const { connect } = require('../database/lib')
 
 const port = Number(process.env.PORT) || 3000
 

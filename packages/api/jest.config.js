@@ -1,9 +1,6 @@
 module.exports = {
   roots: [
-    '<rootDir>/api/',
-    '<rootDir>/bin/',
-    '<rootDir>/components/',
-    '<rootDir>/pages/',
+    '<rootDir>',
   ],
   collectCoverageFrom: [
     './components/**/*.{js,jsx}',
@@ -27,7 +24,4 @@ module.exports = {
     'jsx',
     'node',
   ],
-  moduleNameMapper: {
-    '\\.(css)$': 'identity-obj-proxy',
-  },
 }
