@@ -1,5 +1,5 @@
 const routes = require('express').Router()
-const organizationController = require('./resources/organization')
+const organizationController = require('../resources/organization')
 
 routes.post('/organizations', organizationController.create)
 

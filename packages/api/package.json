@@ -1,6 +1,6 @@
 {
-  "name": "know-your-team",
-  "version": "0.1.0",
+  "name": "kyt-api",
+  "version": "1.0.0",
   "description": "Get to really know the team you're working with",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/grvcoelho/know-your-team.git"
+    "url": "git+https://github.com/grvcoelho/kyt.git"
   },
   "keywords": [
     "management",
@@ -22,27 +22,22 @@
   "author": "Guilherme Rv Coelho <guilhermervcoelho@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/grvcoelho/know-your-team/issues"
+    "url": "https://github.com/grvcoelho/kyt/issues"
   },
-  "homepage": "https://github.com/grvcoelho/know-your-team#readme",
+  "homepage": "https://github.com/grvcoelho/kyt#readme",
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
-    "@zeit/next-css": "^0.2.0",
     "babel-jest": "^23.6.0",
     "babel-polyfill": "^6.26.0",
-    "enzyme": "^3.6.0",
-    "enzyme-adapter-react-16": "^1.5.0",
     "eslint": "^5.5.0",
     "eslint-config-pagarme-react": "^1.5.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.11.1",
-    "identity-obj-proxy": "^3.0.0",
     "jest": "^23.6.0",
     "nodemon": "^1.18.4",
-    "react-addons-test-utils": "^15.6.2",
     "supertest": "^3.3.0"
   },
   "dependencies": {
@@ -50,10 +45,8 @@
     "cuid": "^2.1.4",
     "express": "^4.16.3",
     "joi": "^13.7.0",
-    "marx-css": "^3.0.3",
     "next": "^6.1.2",
     "pg": "^7.4.3",
-    "prop-types": "^15.6.2",
     "ramda": "^0.25.0",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",

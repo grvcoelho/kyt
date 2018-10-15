@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -e
+
+# packages/api
+cd packages/api
+docker-compose run test npm run lint
+docker-compose run test
